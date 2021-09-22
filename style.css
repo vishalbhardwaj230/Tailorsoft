@@ -1,0 +1,109 @@
+.textcolor{
+    text-decoration: none;
+    color: black;
+}
+.loginPage_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center
+    margin-top: 0px;
+}
+
+.loginPage_box_form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    padding: 30px;
+    margin: 0px auto;
+}
+
+.loginPage_logo{
+    height: 50px;
+    width: 50px;
+    margin: 0px auto;
+}
+
+.loginPage_box_form > label {
+    margin: 6px ;
+    font-weight: 500px;
+    text-align: left;
+}
+
+.loginPage_box_form > input , .loginPage_box_form > button , .loginPage_box > button  {
+    outline: none;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 5px ;
+}
+
+.loginPage_box_form > button {
+    margin-top : 15px;
+    background-color: rgb(53, 143, 143) ;
+    font-size: 20px;
+    width: 200px;
+    margin: 15px auto;
+}
+
+.loginPage_box > button  {
+    margin-top : 15px;
+    background-color: rgb(241, 212, 44) ;
+    font-size: 20px;
+    width: 200px;
+    margin: 10px auto;
+}
+
+.loginPage_box > button > a{
+    text-decoration: none;
+    color: black;
+}
+------------------------
+
+*[role="form"] {
+    max-width: 530px;
+    padding: 15px;
+    margin-left: 300px;
+    border-radius: 0.3em;
+    background-color: #f2f2f2;
+}
+*[role="form"] h2 { 
+    font-family: 'Open Sans' , sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    color: #000000;
+    margin-top: 5%;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+----------------------
+
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
